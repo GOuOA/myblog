@@ -12,11 +12,11 @@
     <div class="footer-color mt-[5px] flex justify-center flex-wrap">
       <a
         class="p-[3px]"
-        href="https://www.aliyun.com/?spm=5176.28055625.J_3207526240.1.6a27154aw7v5VK"
+        href="https://www.huaweicloud.com/intl/zh-cn/?ticket=ST-8307839-O5KRcDdA09U319Yxii7nXWQ9-sso"
         target="_blank"
       >
         <img
-          src="https://img.shields.io/badge/%E9%98%BF%E9%87%8C%E4%BA%91-ECS%E6%9C%8D%E5%8A%A1%E5%99%A8-orange"
+          src="https://img.shields.io/badge/%E5%8D%8E%E4%B8%BA%E4%BA%91-ECS%E6%9C%8D%E5%8A%A1%E5%99%A8-orange"
           alt=""
       /></a>
       <a class="p-[3px]" href="https://imzbf.github.io/md-editor-v3/docs/index" target="_blank">
@@ -29,8 +29,7 @@
       </a>
       <a class="p-[3px]" href="https://min.io/" target="_blank">
         <img
-          src="https://img.shields.io/badge/minio-%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8%E7%B3%BB%E7%BB%9F-purple
-"
+          src="https://img.shields.io/badge/minio-%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8%E7%B3%BB%E7%BB%9F-purple"
           alt=""
         />
       </a>
