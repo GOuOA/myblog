@@ -9,7 +9,7 @@ import biaoqian from "@/assets/svg/biaoqian.svg?component";
 import fenlei from "@/assets/svg/fenlei.svg?component";
 import wenzhang from "@/assets/svg/wenzhang.svg?component";
 import yonghu from "@/assets/svg/yonghu.svg?component";
-// import { getCommitList } from "@/api/site";
+import { getCommitList } from "@/api/site";
 import { dayjs } from "element-plus";
 import { debounce } from "@pureadmin/utils";
 import { useAppStoreHook } from "@/store/modules/app";
@@ -47,21 +47,21 @@ const createDayArr = () => {
 };
 
 // gitee代码提交记录
-// const getCodeCommit = async () => {
-//   const arr = createDayArr();
-//   const res: any = await getCommitList();
+const getCodeCommit = async () => {
+  const arr = createDayArr();
+  const res: any = await getCommitList();
 
-//   res.length &&
-//     res.forEach(v => {
-//       const index = arr.findIndex(d => d[0] == v.created_at.split("T")[0]);
-//       if (index != -1) {
-//         v.commit_count = v.commit_count ? v.commit_count - 0 : 0;
-//         arr[index][1] += v.commit_count;
-//       }
-//     });
+  res.length &&
+    res.forEach(v => {
+      const index = arr.findIndex(d => d[0] == v.created_at.split("T")[0]);
+      if (index != -1) {
+        v.commit_count = v.commit_count ? v.commit_count - 0 : 0;
+        arr[index][1] += v.commit_count;
+      }
+    });
 
-//   staticsData.value.commitList = arr;
-// };
+  staticsData.value.commitList = arr;
+};
 
 const resize = debounce(() => {
   // resize echarts

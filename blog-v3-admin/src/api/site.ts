@@ -16,12 +16,12 @@ export const getConfigDetail = () => {
 };
 
 /** 获取gitee代码提交记录 */
-// export const getCommitList = () => {
-//   return http.request<Array<object>>(
-//     "get",
-//     "/gitee/contribution_timeline?url=%2Fghduhjabd%2Fcontribution_timeline&scope=my&day=&start_date=&end_date=&year=&limit=180&prev_id=&_=17528968564881594041"
-//   );
-// };
+export const getCommitList = () => {
+  return http.request<Array<object>>(
+    "get",
+    "/gitee/contribution_timeline?url=%2Fghduhjabd%2Fcontribution_timeline&scope=my&day=&start_date=&end_date=&year=&limit=20&prev_id=&_=1729404611710"
+  );
+};
 
 /** 修改网站config */
 export const updateConfigDetail = data => {
