@@ -127,11 +127,11 @@ onMounted(() => {
         </el-card>
       </el-col>
     </el-row>
-    <div class="filings">
+    <!-- <div class="filings">
       <a class="change-color" href="http://beian.miit.gov.cn/" target="_blank"
         >蜀ICP备2023007772号</a
       >
-    </div>
+    </div> -->
   </el-card>
 </template>
 
