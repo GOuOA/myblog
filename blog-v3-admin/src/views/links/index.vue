@@ -129,7 +129,7 @@ const {
       @selection-change="handleSelectionChange"
     >
       <template #site_avatar="{ row }">
-        <el-avatar :src="row.site_avatar || row.url + '/favicon.ico'">{{
+        <el-avatar :src="row.site_avatar || row.url + '/chenk.ico'">{{
           row.site_name
         }}</el-avatar>
       </template>
