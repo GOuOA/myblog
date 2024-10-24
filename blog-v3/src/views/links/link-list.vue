@@ -62,7 +62,7 @@ const observeBox = () => {
 
 const returnUrl = (url) => {
   const end = url.substring(url.length - 1);
-  return end != "/" ? url + "/favicon.ico" : url + "favicon.ico";
+  return end != "/" ? url + "/chenk.ico" : url + "chenk.ico";
 };
 
 const pageGetLinksList = async () => {

@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 
-import blogAvatar from "@/assets/img/blogAvatar.png";
+import blogAvatar from "@/assets/img/blogAvatar.jpg";
 import GsapCount from "@/components/GsapCount/index";
 
 const router = useRouter();
