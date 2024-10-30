@@ -82,13 +82,13 @@ export default defineConfig({
       },
       // minio 代理
       "/blog-images": {
-        target: "http://121.37.239.106:9000/blog-images",
+        target: "http://121.40.69.105:9000/blog-images",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/blog-images/, ""),
       },
       "/wapi": {
         // 网易云的音乐代理
-        target: "http://121.37.239.106:3000",
+        target: "http://121.40.69.105:3000",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/wapi/, ""),
       },

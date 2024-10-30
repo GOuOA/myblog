@@ -6,7 +6,7 @@ import { reqLogin, reqRegister, getUserInfoById } from "@/api/user";
 
 import { user } from "@/store/index.js";
 import { getWelcomeSay, _getLocalItem, _setLocalItem, _removeLocalItem } from "@/utils/tool";
-import blogAvatar from "@/assets/img/blogAvatar.jpg";
+import blogAvatar from "@/assets/img/blogAvatar.png";
 
 // 本地数据加密解密
 import { _encrypt, _decrypt } from "@/utils/encipher";
@@ -260,7 +260,6 @@ watch(
         :rules="loginRules"
       >
         <div class="!w-[100%] !h-[6rem]">
-          
           <el-image style="width: 80px; height: 80px" :src="blogAvatar" fit="cover" />
         </div>
         <el-form-item prop="username">

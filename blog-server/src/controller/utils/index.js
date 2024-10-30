@@ -19,7 +19,7 @@ class UtilsController {
     if (file) {
       if (UPLOADTYPE == "local" || !UPLOADTYPE) {
         ctx.body = result("图片上传成功", {
-          url: "http://127.0.0.1:8880/local/" + path.basename(file.filepath),
+          url: "http://121.40.69.105:8880/local/" + path.basename(file.filepath),
         });
       } else {
         let completeUrl = isValidUrl(BASEURL) ? BASEURL : "http://" + BASEURL;

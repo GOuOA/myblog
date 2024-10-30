@@ -110,7 +110,7 @@ const initWebsocket = async (isReconnect = false) => {
     websocket = null;
   }
 
-  websocket = new WebSocket("ws://121.37.239.106/ws/");
+  websocket = new WebSocket("ws://121.40.69.105/ws/");
   // websocket = new WebSocket("ws://localhost:8889/");
 
   if (websocket) {

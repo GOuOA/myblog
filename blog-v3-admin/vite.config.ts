@@ -57,7 +57,7 @@ export default ({ command, mode }: ConfigEnv): UserConfigExport => {
           rewrite: path => path.replace(/^\/api/, "")
         },
         "/blog-images": {
-          target: "http://121.37.239.106:9000/blog-images",
+          target: "http://121.40.69.105:9000/blog-images",
           changeOrigin: true,
           rewrite: path => path.replace(/^\/blog-images/, "")
         },
